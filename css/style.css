@@ -1,0 +1,631 @@
+*,*::after,*::before{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    
+    
+}
+body{
+   background-color: #f1f1f1;
+   font-family: "Raleway", sans-serif;
+}
+
+.hed{
+    background-color: white;
+    float: left;
+    overflow: hidden;
+    width: 22.33%;
+    position: fixed;
+      padding-bottom: 250px;
+    
+}
+.cont{
+    
+    float: right;
+   
+    width: 77.67%;
+    
+}
+
+.rel{
+    padding: 20px;
+}
+
+.hed .imag{
+    width: 112.94px;
+    height: 112.94px;
+    border-radius: 4px;
+  
+    
+}
+.part{
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.unordered-list{
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.unordered-list .item a{
+    
+   color: #009688;
+}
+.unordered-list li a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    padding-left: 5px 0 5px 20px;
+}
+
+.unordered-list li a:hover{
+    background-color: #ccc;
+}
+.icon{
+    
+    padding: 5px 20px;
+}
+
+.icon .fa-facebook-f{
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    width: 15px;
+    height: 15px;
+    padding-top: 2px;
+    text-align: center
+}
+.icon .fab:hover{
+    opacity: .7;
+}
+.part p{
+    color: #757575;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.header h1{
+    
+    padding:10px 0;
+}
+.header .button{
+    padding: 10px 0;
+  
+    border-bottom: 5px solid #ccc;
+}
+.header .button button{
+    padding: 5px 20px;
+    border: none;
+    background-color: white;
+}
+
+.header .button .all{
+    background-color: black;
+    color: white;
+}
+.header .button button:hover{
+    background-color: #ccc;
+    color: black;
+}
+
+.header .button .pan{
+    margin-right: 10px;
+}
+
+.lay{
+    width: 96%;
+    margin: auto;
+}
+
+.nav .log{
+    width: 60px;
+    height:60px;
+    border-radius: 50%;
+   
+    
+}
+.nav .log1{
+    width: 60px;
+    height:60px;
+    border-radius: 50%;
+    position: absolute;
+     background-color: rgba(255,255,255,.5);
+    opacity: 0;
+}
+.nav .aps1:hover .log1{
+    opacity: 1;
+}
+.nav .aps{
+      
+      cursor: pointer;
+      
+      padding: 21px 16px;
+       
+   
+    
+}
+.nav .aps:hover{
+    background-color: #ccc;
+}
+.nav .aps span{
+    
+    display: block;
+    width: 30px;
+    height: 5px;
+    border-radius: 20px;
+    margin-bottom: 7px;
+    background-color: black;
+}
+.nav .aps1{
+       padding: 10px;
+       cursor: pointer;  
+       position: relative;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    display: none;
+}
+@media(max-width:993px){
+    .nav{
+        display: block;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .hed{
+        left: -300px;
+        width: 300px;
+        z-index: 2;
+        transition: all 1s ease-in-out;
+    }
+    .cont{
+        width: 100%;
+    }
+    
+}
+
+
+.act{
+    left: 0;
+}
+.rel{
+   position: relative;
+}
+.rel i{
+    display: none;
+}
+.rel5{
+    font-size: 50px;
+    position: absolute;
+    right: 5%;
+     cursor: pointer;
+    padding: 20px;
+    display: none;
+    
+}
+.rel5:hover{
+    background-color: #ccc;
+    border-radius: 50%;
+    
+   
+}
+
+@media(max-width:993px){
+    
+    .rel i{
+    display: block;
+        top: 30px;
+}
+    
+}
+@media(max-width:667px){
+    
+    .header .button .moh{
+        display: none;
+    }
+}
+.body{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-top: 2%;
+    z-index: 1;
+    
+}
+.tel{
+    width: 32%;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+}
+.lap div{
+    position: absolute;
+    background-color: rgba(255,255,255,.5);
+    height: 217.55px;
+    width: 100%;
+    opacity: 0;
+}
+.lap img{
+    width: 100%;
+    height: 217.55px;
+}
+.body .tel .lap:hover .ops{
+    opacity: 1;
+}
+.tel .pur{
+    width: 92%;
+    margin: 10px auto;
+}
+.tel .pur .parg{
+    font-size: 15px;
+}
+.drop{
+    text-align: center;
+    padding: 60px 0;
+}
+.drop ul li{
+    list-style: none;
+    display: inline-block;
+}
+.drop ul li a{
+ 
+    font-size: 16px;
+    color: black;
+    padding: 10px;
+    margin-right: -5px;
+}
+.drop ul li .lin{
+    
+    padding: 10px 15px;
+}
+.drop ul li .lin1{
+    background-color: black;
+    color: white;
+    
+}
+.drop ul li a:hover{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.drop ul li .lin1:hover{
+    background-color: #ccc;
+}
+.class{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4%;
+}
+.class div{
+    width: 49%;
+    
+}
+.class div img{
+    width: 100%;
+    height: 310.92px;
+}
+
+.pro p{
+    font-size: 14px;
+}
+.art{
+    margin-bottom: 5%;
+}
+
+.art .hart div{
+    position: relative;
+    background-color: #9e9e9e;
+    height: 24px;
+    height: 38px;
+    margin-bottom: 2%;
+}
+.art .hart div span{
+    position: absolute;
+    width: 95%;
+    height: 38px;
+    text-align: center;
+    background-color: #616161;
+    padding-top: 8px;
+      color: white;
+    
+}
+.art .hart1 div{
+    position: relative;
+    background-color: #9e9e9e;
+    height: 24px;
+    height: 38px;
+    margin-bottom: 2%;
+    
+}
+.art .hart1 div span{
+    position: absolute;
+    width: 85%;
+    height: 38px;
+    text-align: center;
+    background-color: #616161;
+    padding-top: 8px;
+      color: white;
+}
+
+.art .hart2 div{
+    position: relative;
+    background-color: #9e9e9e;
+    height: 24px;
+    height: 38px;
+    margin-bottom: 2%;
+}
+.art .hart2 div span{
+    position: absolute;
+    width: 80%;
+    height: 38px;
+    text-align: center;
+    color: white;
+    background-color: #616161;
+    padding-top: 8px;
+    
+}
+.hart3{
+    padding-top: 20px;
+}
+
+.art .hart3 button{
+    
+    color: #fff;
+    background-color: #616161;
+    padding: 12px;
+    border: none;
+    outline: none;
+}
+.art .hart3 button:hover{
+    background-color: #ccc;
+    color: black;
+}
+
+.tab{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+.tab .tabl,.tab .tabl1,.tab .tabl2{
+    width: 32%;
+    background-color: white;
+}
+.tab .tabl table{
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    width: 100%;
+    opacity: .5;
+}
+.tab .tabl table:hover{
+    opacity: 1;
+}
+.tab .tabl table tr{
+     border: 1px solid #ddd;
+    font-size: 19px;
+   
+}
+.tab .tabl table tr th{
+    padding: 30px 15px;
+    background-color: black;
+    color: white;
+}
+.tab .tabl table tr td{
+    
+     padding: 12px 16px;
+}
+.tab .tabl table .fot td{
+    padding: 20px 16px;
+    background-color: #f1f1f1;
+}
+.tab .tabl table .fot td button{
+    padding: 5px 10px;
+    color: white;
+    background-color: #009688;
+    border: none;
+}
+.tab .tabl table .fot td button:hover{
+    background-color: black;
+}
+.tab .tabl table .tr th{
+    background-color: #009688;
+}
+
+.hear{
+    background-color: #9e9e9e;
+    padding-top: 40px;
+    overflow: hidden
+}
+.clear{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.clear .poor{
+    
+    width: 33.3333333333%;
+    background-color: #616161;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+.clear .poor i{
+    font-size: 30px;
+}
+.clear .puor{
+    background-color: #009688;
+}
+
+form input{
+    display: block;
+    width: 100%;
+    height: 40px;
+}
+form label{
+    margin-bottom: 0;
+}
+form .but{
+    padding: 8px 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+form .but:hover{
+    color: black;
+    background-color: #ccc;
+}
+.butt{
+   margin-top: 3rem;
+    margin-bottom: 3rem;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+.mb-5{
+    padding-bottom: 10px;
+}
+.ear{
+    background-color: #616161;
+   
+}
+.loop{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+.loop .laap,.loop .laap1,.loop .laap2{
+    width: 33.333333%;
+    
+}
+.tablet p a{
+    color: white;
+    text-decoration: underline;
+}
+.tablet p{
+    font-size: 15px;
+}
+.laap1 .tablet ul li{
+    list-style: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+    
+}
+.laap1 .tablet ul li .met{
+    display: flex;
+}
+.laap1 .tablet ul li .met div{
+    width: 25%;
+}
+
+.laap1 .tablet ul li .met  span{
+    width: 75%;
+}
+
+.laap1 .tablet ul .lis{
+    border-bottom: 1px solid #ccc;
+}
+.laap1 .tablet ul li:hover{
+    background-color: #ccc;
+}
+.tail{
+    padding-left: 20px;
+}
+.rich{
+    color: white;
+    background-color: black;
+    padding: 3px 8px;
+    font-size: 12px;
+    margin-bottom: 26px;
+}
+.span{
+    background-color: #9e9e9e;
+    color: black;
+    padding: 1px 8px;
+    font-size: 12px;
+    margin-bottom: 26px;
+}
+.fare{
+    line-height: 2rem;
+}
+
+.foot{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 25px;
+    font-size: 15px;
+    z-index: 1;
+    
+}
+.foot p a{
+    color: white;
+    text-decoration: underline;
+}
+@media(max-width:993px){
+    
+    .body{
+        display: block;
+        overflow: hidden;
+    }
+    .body .tel{
+        width: 100%;
+        margin-bottom: 4%;
+        
+    }
+    .body .tel .lap img{
+        height: 300.66px;
+    }
+    .body .tel .lap div{
+        height: 300.66px;
+    }
+    .class{
+        display: block;
+    }
+    .class div{
+        width: 100%;
+    }
+    .tab{
+        display: block;
+    }
+    .tab .tabl{
+        
+        width: 100%;
+        margin-bottom: 4%;
+        
+    }
+    .clear {
+        display: block;
+        
+    }
+    .clear .poor{
+        width: 100%;
+    }
+    .loop{
+        display: block;
+    }
+    .loop .laap,.loop .laap1,.loop .laap2{
+        width: 100%;
+        margin-bottom: 4%;
+    }
+    .tail{
+        padding-left: 0;
+    }
+}
+
+
+
+
+
+
+
+
